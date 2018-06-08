@@ -12,9 +12,9 @@ let modalTitle = null;
 let modalLanguage = null;
 let modalCode = null;
 let codes = [];
-let editBlock = '<td> <p data-placement="top" data-toggle="tooltip" title="Edit"><button onclick="readyToEdit(this)" class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal"data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></button></p></td> ';
-let deleteBlock = '<td> <p data-placement="top" data-toggle="tooltip" title="Delete"><button onclick="readyToDelete(this)" class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal"data-target="#delete"><span class="glyphicon glyphicon-trash"></span></button> </p> </td>';
-let copyBlock = '<td> <p data-placement="top"<button onclick="copyToClip(this)" class="btn btn-primary btn-xs" data-title="Copy"><span class="glyphicon glyphicon-copy"></span></button></p> </td> '
+let editBlock = '<td> <p data-placement="top" data-toggle="tooltip" title="Edit"><button onclick="readyToEdit(this)" class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal"data-target="#edit"><i class="fas fa-pencil-alt"></i></span></button></p></td> ';
+let deleteBlock = '<td> <p data-placement="top" data-toggle="tooltip" title="Delete"><button onclick="readyToDelete(this)" class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal"data-target="#delete"><i class="fas fa-trash"></i></button> </p> </td>';
+let copyBlock = '<td> <p data-placement="top"<button onclick="copyToClip(this)" class="btn btn-primary btn-xs" data-title="Copy"><i class="far fa-copy"></i></button></p> </td> '
 let search_text=""
 
 let hotkey =  ' <td>  <div class="input-group" style="width:300px;" >'

@@ -19,8 +19,8 @@
 
 <div class="modal-content">
     <div class="modal-header">
-        <button type="button" onclick='closeWin()' class="close" data-dismiss="modal" aria-hidden="true"><span
-                class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+        <button type="button" onclick='closeWin()' class="close" data-dismiss="modal" aria-hidden="true"><i
+            class="fas fa-times"></i></button>
         <h4 class="modal-title custom_align" id="Heading">New Snip</h4>
     </div>
     <div class="modal-body">
@@ -37,14 +37,12 @@
             <div class="checkbox checkbox-primary">
                 <input type="checkbox" id="makeGistCheckbox">
                 <label for="makeGistCheckbox">Make a gist</label>
-
             </div>
         </div>
     </div>
     <div class="modal-footer ">
         <button onclick="newSnip()" data-dismiss="modal" type="button" class="btn btn-warning btn-lg"
-                style="width: 100%;"><span
-                class="glyphicon glyphicon-ok-sign"></span> Save
+                style="width: 100%;"><i class="fas fa-check-circle"></i> Save
         </button>
     </div>
 </div>
