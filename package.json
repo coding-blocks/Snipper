@@ -1,7 +1,7 @@
 {
   "name": "Snipper",
   "productName": "Snipper",
-  "version": "1.0.8-RC3",
+  "version": "1.1.0",
   "author": "Coding Blocks",
   "description": "A cross platform desktop app that lets you save your frequently used code snippets.",
   "main": "./main.js",
