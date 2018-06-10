@@ -67,7 +67,7 @@
                     <input id="title" class="form-control" type="text">
                 </div>
                 <div class="form-group">
-                    <input id="language" class="form-control" type="text">
+                    <input id="language" class="form-control" type="text" onchange="updateLanguage(this)">
                 </div>
                 <div class="form-group">
                     <div id="editor" class="form-control" style="height: 300px"></div>
@@ -116,7 +116,14 @@
 <script>
     const editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
-    editor.getSession().setMode("ace/mode/javascript");
+    function updateLanguage (lang) {
+        console.log(lang.value);
+        try {
+            editor.session.setMode("ace/mode/" + lang.value);
+        } catch (error) {
+            console.log('not a language');
+        }
+    }
 </script>
 <style type="text/css">
     .arrow-up {
