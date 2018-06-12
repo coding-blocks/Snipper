@@ -103,10 +103,11 @@ function readyToEdit(element) {
     modalTitle = document.getElementById("title");
     modalLanguage = document.getElementById("language");
     modalCode = ace.edit("editor");
-
+    modalCode.session.setMode("ace/mode/" + editReadySnip.language);
     modalTitle.setAttribute("value", editReadySnip.title);
     modalLanguage.setAttribute("value", editReadySnip.language);
     modalCode.setValue(editReadySnip.code);
+    console.log(modalCode);
 }
 
 ipcRenderer.on('invalid_key_error', function (event, err) {
