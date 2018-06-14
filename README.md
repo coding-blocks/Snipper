@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/coding-blocks/Snipper.svg?branch=master)](https://travis-ci.org/coding-blocks/Snipper)
-
 # Snipper
+
+[![Build Status](https://travis-ci.org/coding-blocks/Snipper.svg?branch=master)](https://travis-ci.org/coding-blocks/Snipper)
 
 This is a simple desktop app that lets you save your most frequently used Code Snippets with syntax highlighting.
 
